@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random color Toggler</title>
     <script src="./app.js" defer></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <div >
-            <button onclick="toggleColor()">Alter Bg</button>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="text-center">Random color Toggler</h1>
         </div>
-
-        <div id="hexcode"></div>
+    </nav>
+      
     </div>
+
+    <div class="card text-white bg-success mb-3" style="max-width: 18rem; display: flex;" id="card">
+        <div class="card-header"><button onclick="toggleColor()" class="btn">Alter Bg</button></div>
+        <div class="card-body">
+          <h5 class="card-title">Hex Value:</h5>
+          <p class="card-text" id="hexcode"></p>
+        </div>
+      </div>
     
 </body>
 </html>

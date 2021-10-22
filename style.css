@@ -1,20 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    font-family: 'Roboto', sans-serif;
-
+.navbar {
+    background-color: ghostwhite;
 }
 
-.container{
+#card{
     display:flex;
     justify-content: center;
-    margin-top:50vh;
-}
-
-.container > div>button {
-   height:50px;
-   font-size: 2em;
-}
-
-#hexcode{
-    font-size: 3em;
 }
